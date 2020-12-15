@@ -1,0 +1,57 @@
+*{
+    font-family: 'Times New Roman', Times, serif;   
+}
+
+#app{
+    background-image: url(../../../../public/img/gateaux/fond1.jpg);
+    background-size: cover;
+}
+
+#nav-collapse .menu-item {
+    font-size: 18px ;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.carousel{
+    font-family: 'Dancing Script', cursive;
+}
+
+h5{
+    text-align:center;
+}
+
+.flash{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    
+    }
+
+.qr_code{
+    background-image: url(../../../../public/img/gateaux/qr_code.png);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin-left: 80px;
+    }
+
+.bv-example-row a{
+    font-size: 12px;
+}
+
+.text-center{
+    border: 2px solid #A97C9F;
+    padding-top: 20px;
+    margin: 3%;
+}
+
+.text-center p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.featurette-heading{
+    color: #966e8c;
+}
+
+
