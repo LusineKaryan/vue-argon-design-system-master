@@ -38,7 +38,7 @@
                 </div> 
            
             <b-container class="bv-example-row">                
-                <b-row>
+                <b-row class="row justify-content-center">
                     <b-col cols="12" md="5" lg="3" class="text-center">
                         <img v-lazy="'img/gateaux/tort1.jpg'" alt="gateau1"
                             class="img-fluid shadow-lg" style="width: 80%;">
@@ -79,11 +79,9 @@
                         <p><a class="btn btn-secondary" href="#" role="button">Voir details &raquo;</a></p>                       
                     </b-col>                         
                 </b-row>
-                        <base-button  type="primary">Button</base-button>
-                        
-
-                <p>{{ message }}</p>
-
+                <base-alert type="success" class="alert" icon="ni ni-like-2" dismissible>
+                    <span slot="text">Vous pouvez laisser votre commentaire en vous inscrivant sur notre site internet</span>
+                </base-alert>
                 <hr class="featurette-divider">
                 <div class="row featurette">
                     <div class="col-md-7">
@@ -128,11 +126,6 @@ export default {
     BContainer,
     BCol,
     BRow
-  },
-  data () {
-    return {
-        message: 'Hello vue.js'
-    }
   }
 };
 </script>
