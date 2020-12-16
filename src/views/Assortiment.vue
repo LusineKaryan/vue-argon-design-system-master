@@ -33,7 +33,7 @@
                 <b-col cols="10" md="5" lg="3" class="text-center">
                     <img v-lazy="'img/gateaux/tort2.png'" alt="gateau"
                         class="img-fluid shadow-lg" style="width: 80%;">
-                    <p><em>Poids net: 2400 g <br> Prix: 35€/kg</em></p>  
+                    <p><em>Poids net: 3000 g <br> Prix: 35€/kg</em></p>  
                     <p><a class="btn btn-secondary" href="#" role="button">Ajouter au panier</a></p>        
                 </b-col>
                 <b-col cols="10" md="5" lg="3" class="text-center">
