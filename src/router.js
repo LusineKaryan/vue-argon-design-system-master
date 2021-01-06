@@ -12,6 +12,7 @@ import Assortiment from "./views/Assortiment.vue";
 import Contact from "./views/Contact.vue";
 
 
+
 Vue.use(Router);
 
 export default new Router({
@@ -81,6 +82,7 @@ export default new Router({
         footer: AppFooter
       }
     },
+
     {
       path: "/",
       name: "accueil",
