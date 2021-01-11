@@ -10,6 +10,7 @@ import Accueil from "./views/Accueil.vue";
 import Panier from "./views/Panier.vue";
 import Assortiment from "./views/Assortiment.vue";
 import Contact from "./views/Contact.vue";
+import Boutique from "./views/Boutique.vue";
 
 
 
@@ -69,6 +70,16 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Assortiment,
+        footer: AppFooter
+      }
+    },
+
+    {
+      path: "/boutique",
+      name: "boutique",
+      components: {
+        header: AppHeader,
+        default: Boutique,
         footer: AppFooter
       }
     },

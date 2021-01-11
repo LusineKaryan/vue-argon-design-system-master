@@ -12,6 +12,7 @@
                 
                 <b-nav-item href="#" link-classes="menu-item"><router-link to="/" style="color:rgb(133, 25, 116);">Accueil</router-link></b-nav-item>
                 <b-nav-item href="#" link-classes="menu-item"><router-link to="/assortiment" style="color:rgb(133, 25, 116);">Assortiment</router-link></b-nav-item>
+                <b-nav-item href="#" link-classes="menu-item"><router-link to="/boutique" style="color:rgb(133, 25, 116);">Boutique</router-link></b-nav-item>
                 <b-nav-item href="#" link-classes="menu-item"><router-link to="/contact" style="color:rgb(133, 25, 116);">Contact</router-link></b-nav-item>
                 <b-nav-item href="#" link-classes="menu-item"><router-link to="/panier" style="color:rgb(133, 25, 116);">Panier</router-link></b-nav-item>
             </b-navbar-nav>
