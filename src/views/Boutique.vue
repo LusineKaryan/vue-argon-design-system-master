@@ -23,7 +23,7 @@
                 </b-col>                                         
             </b-row>
         </b-container> 
-
+ <table data-toggle="table" data->
         <b-col cols="10" md="5" lg="3" class="text-center">
             <img v-lazy="'img/gateaux/tort1.jpg'" alt="gateau"
                 class="img-fluid shadow-lg" style="width: 80%;">
